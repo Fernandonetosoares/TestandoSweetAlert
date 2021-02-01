@@ -1,6 +1,14 @@
 var nome = window.prompt('Qual é o seu nome?')
 window.alert(`Seja bem vindo ${nome}`)
-  
+
+function confirmar(){
+    var nome = document.getElementById('txtn')
+    var res = document.getElementById("res")
+    var n = (nome.value)
+
+    res.style.textAlign = 'center'
+    res.innerHTML = `Seja bem vindo ${n}`
+}  
 
 function clicar() {
     Swal.fire('Menssagem Simples')

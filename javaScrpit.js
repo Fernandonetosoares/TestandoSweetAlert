@@ -7,7 +7,8 @@ function confirmar(){
     var n = (nome.value)
 
     res.style.textAlign = 'center'
-    res.innerHTML = `Seja bem vindo ${n}`
+    res.innerHTML = `Seja bem vindo ${n}, abaixo temos alguns exemplos de sweet alerts`
+    
 }  
 
 function clicar() {
